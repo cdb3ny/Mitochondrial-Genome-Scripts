@@ -1,10 +1,10 @@
 # Mitochondrial-Genome-Scripts
 # The code associated with this repository was used to assemble the primary genome discussed in Kovar et al., in review with Genome Biology and Evolution. 
 
-# There are two shell scripts included herein
+# There are two shell scripts included herein - one counts mononucleotides and the other is the iterative genome assembler
 
 #MONONUCLEOTIDE COUNTING
-# The first tools is a simple script to count mononucleotide repeats in a genome (a fasta file).  A commented explanation is included with the script.
+# The first tool is a simple script to count mononucleotide repeats in a genome (a fasta file).  A commented explanation is included with the script.
 
 #ITERATIVE GENOME ASSEMBLER
 # the second tool is a script of a pipeline for the iterative assembly of mitochondrial (or similar genomes) from long read (PacBio data)
