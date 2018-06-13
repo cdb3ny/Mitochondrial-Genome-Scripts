@@ -1,6 +1,6 @@
 # Mitochondrial-Genome-Scripts
 # The code associated with this repository was used to assemble the primary genome discussed in Kovar et al., in review with Genome Biology and Evolution. 
-# this reposity includes scripts associated with the development and investigation of the mitochondrial genome of the plant Leucaena trichandra
+
 # There are two shell scripts included herein
 
 MONONUCLEOTIDE COUNTING
