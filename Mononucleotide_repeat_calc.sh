@@ -1,8 +1,8 @@
 #!/bin/bash
 #test
-#this script assumes the genome files are fasta files with names as follows anyname.fa
-#the awk step should convert any multiline fasta genomes into single line fasta (it will have no effect on single line fasta) and save the copy with the suffix .fa.fa
-#the next four steps count the number of bases in each mononucleotide class at least 8bp long and sends the output to a text file named after the genome
+#this script assumes the genome files are fasta files with names as follows: anyname.fa
+#the awk step should convert any multiline fasta genomes into single line fasta (it will have no effect on single line fasta). It will save the copy with the suffix .fa.fa
+#the next four steps count the number of bases in each mononucleotide class (at least 8bp long) and sends the output to a text file named after the genome
 #the RESULT variable summs up all the nucleotides in total and sends them to a file called "Mononucleotide.out"  
 #the Mononucleotide.out file will have as many lines as genomes.  Each line will include a genome name followed by the number of bases occupied by these mononucleotide repeats.
 
