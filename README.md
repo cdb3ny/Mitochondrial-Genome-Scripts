@@ -7,7 +7,7 @@
 # The first tool (Mononucleotide_repeat_calc.sh) is a simple script to count mononucleotide repeats in a genome (a fasta file).  The script includes comments explaining each step and the input requirements.
 
 #ITERATIVE GENOME ASSEMBLER
-# the second tool is a script of a pipeline for the iterative assembly of mitochondrial (or similar genomes) from long read (PacBio data)
+# the second tool (Iternative_assembly_script.sh) is a pipeline for the iterative assembly of mitochondrial (or similar genomes) from long read data (PacBio data).  Below is a description of the software requirements.  The script also includes comments explaining each step.
 
 #Requirements: The following code employed a Linux Ubuntu Server run from the command line.
 
