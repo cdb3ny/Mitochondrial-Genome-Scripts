@@ -18,9 +18,13 @@
 #Blasr (https://github.com/PacificBiosciences/blasr)
 
 #Seqtk (https://github.com/lh3/seqtk)
-You must have the follow files under these names in a single input/output folder that will be used for the run.
+
+#You must have the follow files under these names in a single input/output folder that will be used for the run.
+
 “seed0.fasta” – this is the initial reference genome(s) needed to start the first round of assembly. If you use multiple starting references they should be in this single file as separate fasta sequences.
+
 “round0.fastq” – this file must exist but be completely empty.
+
 “seed0.blasr.sort.list.out.fixed” – this file must exist but be completely empty
 
 #The forloop in this bash script includes 10 cycles of assembly. Each round identifies the reads matching the starting genome and assembles on the available data. See the full manuscript for more information.
