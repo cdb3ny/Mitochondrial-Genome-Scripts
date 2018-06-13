@@ -4,7 +4,7 @@
 # There are two shell scripts included herein
 
 MONONUCLEOTIDE COUNTING
-# The frist tools is a simple script to count mononucleotide repeats in a genome (a fasta file).  A commented explanation is included with the script.
+# The first tools is a simple script to count mononucleotide repeats in a genome (a fasta file).  A commented explanation is included with the script.
 
 ITERATIVE GENOME ASSEMBLER
 # the second tool is a script of a pipeline for the iterative assembly of mitochondrial (or similar genomes) from long read (PacBio data)
